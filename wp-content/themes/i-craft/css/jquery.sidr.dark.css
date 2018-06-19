@@ -1,0 +1,176 @@
+.dropdown {
+	display:none;
+	position:absolute;
+	position:fixed;
+	top:0;
+	height:100%;
+	z-index:999999;
+	width:260px;
+	overflow-x:none;
+	overflow-y:auto;
+	font-size:15px;
+	background:#333;
+	color:#fff;
+	-webkit-box-shadow:inset 0 0 5px 5px #222;
+	-moz-box-shadow:inset 0 0 5px 5px #222;
+	box-shadow:inset 0 0 5px 5px #222;
+}
+.dropdown .dropdown-inner {
+	padding:0 0 15px;
+}
+.dropdown .dropdown-inner>p {
+	margin-left:15px;
+	margin-right:15px;
+}
+.dropdown.right {
+	left:auto;
+	right:-260px;
+}
+.dropdown.left {
+	left:-260px;
+	right:auto;
+}
+.dropdown h1,
+.dropdown h2,
+.dropdown h3,
+.dropdown h4,
+.dropdown h5,
+.dropdown h6 {
+	font-size:11px;
+	font-weight:normal;
+	padding:0 15px;
+	margin:0 0 5px;
+	color:#fff;
+	line-height:24px;
+}
+.dropdown p {
+	font-size:13px;
+	margin:0 0 12px;
+}
+.dropdown p a {
+	color:rgba(255,255,255,0.9);
+}
+.dropdown>p {
+	margin-left:15px;
+	margin-right:15px;
+}
+.dropdown ul {
+	display:block;
+	margin:0 0 15px;
+	padding:0;
+	border-top:1px solid #1a1a1a;
+	border-bottom:1px solid #4d4d4d;
+}
+.dropdown ul li {
+	display:block;
+	margin:0;
+	line-height:32px;
+	border-top:1px solid #4d4d4d;
+	border-bottom:1px solid #1a1a1a;
+}
+.dropdown ul li:hover,
+.dropdown ul li.active,
+.dropdown ul li.dropdown-class-active {
+	line-height:32px;
+}
+.dropdown ul li:hover>a,
+.dropdown ul li:hover>span,
+.dropdown ul li.active>a,
+.dropdown ul li.active>span,
+.dropdown ul li.dropdown-class-active>a,
+.dropdown ul li.dropdown-class-active>span {
+	background-color: #272727;
+}
+.dropdown ul li a,
+.dropdown ul li span {
+	padding:0 15px;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+}
+.dropdown ul li ul {
+	border-bottom:none;
+	margin:0;
+}
+.dropdown ul li ul li {
+	line-height:32px;
+	font-size:13px;
+}
+.dropdown ul li ul li:last-child {
+	border-bottom:none;
+}
+.dropdown ul li ul li:hover,
+.dropdown ul li ul li.active,
+.dropdown ul li ul li.dropdown-class-active {
+	line-height:32px;
+}
+.dropdown ul li ul li:hover>a,
+.dropdown ul li ul li:hover>span,
+.dropdown ul li ul li.active>a,
+.dropdown ul li ul li.active>span,
+.dropdown ul li ul li.dropdown-class-active>a,
+.dropdown ul li ul li.dropdown-class-active>span {
+	color: #FFFFFF;
+}
+.dropdown ul li ul li a,
+.dropdown ul li ul li span {
+	color:rgba(255,255,255,0.8);
+	padding-left:30px;
+}
+
+.dropdown ul li ul li ul li a,
+.dropdown ul li ul li ul li span {
+	padding-left:40px;
+}
+
+.dropdown form {
+	margin:0 15px;
+}
+.dropdown label {
+	font-size:13px;
+}
+.dropdown input[type="text"],
+.dropdown input[type="password"],
+.dropdown input[type="date"],
+.dropdown input[type="datetime"],
+.dropdown input[type="email"],
+.dropdown input[type="number"],
+.dropdown input[type="search"],
+.dropdown input[type="tel"],
+.dropdown input[type="time"],
+.dropdown input[type="url"],
+.dropdown textarea,
+.dropdown select {
+	width:100%;
+	font-size:13px;
+	padding:5px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0 0 10px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	border:none;
+	background:rgba(0,0,0,0.1);
+	color:rgba(255,255,255,0.6);
+	display:block;
+	clear:both;
+}
+.dropdown input[type=checkbox] {
+	width:auto;
+	display:inline;
+	clear:none;
+}
+.dropdown input[type=button],
+.dropdown input[type=submit] {
+	color:#333;
+	background:#fff;
+}
+.dropdown input[type=button]:hover,
+.dropdown input[type=submit]:hover {
+	background:rgba(255,255,255,0.9);
+}
+
